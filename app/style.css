@@ -1,0 +1,114 @@
+/* General HTML tag */
+*{
+   
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    color: rgb(97, 95, 95);
+}
+/* Main division */
+.main {
+    margin: 10px;
+    padding: 20px;
+    background-color: #F4EEEE;
+    border-radius: 5px;
+}
+/* ID elements */
+#ghs {
+    border: none;
+}
+/* 1st part*/
+.top-most-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+
+
+.heading h1 {
+    margin: 5px 0px;
+}
+.flexBox {
+    display: flex;
+}
+.img {
+    background-color: #F3FDE8;
+    width: 20px;
+    height: 20px;
+}
+
+/* 2rd part*/
+.mid-content{
+    padding: 20px 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 15px;
+}
+
+.grid-item {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #e9d8c0;
+}
+
+.one {
+    background-color: #f6ffe5;
+}
+.two {
+    background-color: #e5fff9;
+}
+.three {
+    background-color: #ffe5f8;
+}
+.grid-item h4 {
+    padding: 15px 0px;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    background-color: #FFBFBF;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+
+/* 3th part*/
+.image {
+    width: 75px;
+    height: 75px;  
+    display: grid;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFDDCC;
+}
+
+.name p{
+    color: black;
+    display: inline-grid;
+    padding: 0px 15px;
+}
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
